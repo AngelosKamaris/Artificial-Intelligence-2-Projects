@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[greek,english]{babel}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{hyperref}
+
+\newcommand{\en}{\selectlanguage{english}}
+\newcommand{\gr}{\selectlanguage{greek}}
+
+
+\begin{document}
+\title{Angelos Kamaris sdi1900070\\AI 2 - project 1}
+\maketitle
+\en
+\gr
+Καμάρης Άγγελος
+\en
+sdi1900070
+\gr
+\section{Πηγές}
+
+\gr
+Αξιοποίησα τον κώδικα του φροντιστηρίου κατά κύριο λόγο, χρησιμοποιώντας επίσης εντολές από το \en sklearn\gr . Αξιοποίησα τον οδηγό:\\ \en \href{https://www.kirenz.com/post/2021-12-11-text-mining-and-sentiment-analysis-with-nltk-and-pandas-in-python/text-mining-and-sentiment-analysis-with-nltk-and-pandas-in-python/}{https://www.kirenz.com/post/2021-12-11-text-mining-and-sentiment-analysis-with-nltk-and-pandas-in-python/text-mining-and-sentiment-analysis-with-nltk-and-pandas-in-python/}\\
+\gr για \en NLTK preprocessing \gr των δεδομένων μου.\\
+\gr
+\section{Επεξήγηση Κώδικα}
+Χρησιμοποίησα τις στήλες \en rating \gr και \en review \gr σαν Υ και Χ αντίστοιχα, όπου επεξεργάστηκα τα \en rating\gr , έτσι ώστε τα “κακά” (0-4) να έχουν την τιμή 0 και τα “καλά” (7-10) να έχουν την τιμή 1.\\\\
+Επεξεργάστηκα τα δεδομένα από τα \en reviews \gr κάνοντας τα κεφαλαία μικρά, βγάζοντας τα σημεία στίξης, και τις λέξεις που είχαν λιγότερα από 2 γράμματα, βρίσκοντας τις πιο πολυχρησιμοποιημένες λέξεις και αφαιρώντας τις πιο σπάνιες, και τέλος κάνοντας \en lematize \gr και \en stematize \gr.\\\\
+Χώρισα τα δεδομένα μου έτσι ώστε 30\% εξ αυτών να γίνονται validate και τα υπόλοιπα να χρησιμοποιούνται για το training, χρησιμοποίησα \en tf-idf\gr καθώς μου έφερνε καλύτερα αποτελέσματα, από τους άλλους που αναφέρθηκαν στο φροντιστήριο.\\\\
+Χρησιμοποιώ \en logistic regression \gr για να κάνω \en train \gr τα δεδομένα μου και εμφανίζω τo την ευστοχία του με \en cross validation\gr . Αξιοποιώ το \en learning curve\gr  του φροντιστηρίου για να εκτυπώσω τις αποδόσεις του \en classifier \gr μου με τον αριθμό των δεδομένων, σύμφωνα με το \en F1-score \gr τους και το μέγεθος των δεδομένων. Τέλος εκτυπώνω τα: \en F1-Score, Recall, Precision\gr  για τα \en training\gr  και \en test\gr  που χώρισα πριν.\\\\
+Αποφάσισα να βάλω \en max features \gr στο \en tf-idf=1000\gr , καθώς για κάτω από 500 δεν έχω εξίσου καλό \en accuracy \gr (κάτω από 0.86) και για πάνω από 1000 έχω \en overfitting\gr . Ο \en classifier \gr έχει \en max iter=2000\gr , μιας και δεν καθυστερεί με αυτό αλλά ούτε κάνει \en overfitting\gr . Τέλος έδωσα 30\% των δεδομένων μου στο\en  test\gr , ώστε να έχω αρκετά δεδομένα για \en train\gr .\\\\
+Για την εισαγωγή ενός \en test\gr , αρκεί να εισάγετε τα δεδομένα στην μεταβλητή \en test df \gr , όπως το παράδειγμα στα σχόλια.\\\\
+\section{Παρατηρήσεις}
+Την μεγαλύτερη αλλαγή την παρατήρησα, στην χρήση \en preprocessing\gr , όταν το μοντέλο δεν έκανε \en overfit \gr ή \en underfit \gr καθώς παρατηρούνται αλλαγές της τάξης $0.2-0.8$, αναλόγως και τα υπόλοιπα δεδομένα.\\\\
+Η κύρια αιτία \en overfitting \gr  ήταν ο μεγάλος αριθμός \en feature \gr στο \en vectorization \gr ενώ για \en underfitting \gr ήταν ο μικρός αριθμός δεδομένων εκπαίδευσης.\\\\
+\section{Αποτελέσματα}
+Τα αποτελέσματα που έχει το πρόγραμμά μου για τα δεδομένα που ανέφερα είναι:\\ \en
+F1 Score (train): 0.88153321015877
+F1 Score (validation): 0.8702659145850121
+Recall Score (train): 0.8921779918864098
+Recall Score (validation): 0.8823529411764706
+Precision Score (train): 0.8711394442037507
+Precision Score (validation): 0.8585055643879174
+
+
+
+\end{document}

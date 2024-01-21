@@ -1,0 +1,284 @@
+GRU
+
+cell_type = 'GRU'
+input_size = 300
+hidden_size = 100
+layers_size = 2
+output_size = 2
+clip=1
+p=0.5
+
+EPOCH = 100
+LR = 0.01
+
+F1 Score (train): 0.8639293803356757
+F1 Score (validation): 0.8349148664109294
+Recall Score (train): 0.9445079365079365
+Recall Score (validation): 0.9178751109795797
+Precision Score (train): 0.7960188356164384
+Precision Score (validation): 0.7657079372916924
+
+cell_type = 'GRU'
+input_size = 300
+hidden_size = 100
+layers_size = 2
+output_size = 2
+clip=1
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+0.8266311190105903
+
+F1 Score (train): 0.9295850871918221
+F1 Score (validation): 0.8388074089375473
+Recall Score (train): 0.9815238095238096
+Recall Score (validation): 0.9013021604024859
+Precision Score (train): 0.8828669331810394
+Precision Score (validation): 0.7844172569220863
+
+cell_type = 'GRU'
+input_size = 300
+hidden_size = 300
+layers_size = 2
+output_size = 2
+clip=1
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+0.8310005184033178
+
+F1 Score (train): 0.9452715070164736
+F1 Score (validation): 0.8411748329621381
+Recall Score (train): 0.9836825396825397
+Recall Score (validation): 0.8941994672980171
+Precision Score (train): 0.909747504403993
+Precision Score (validation): 0.7940867279894875
+
+cell_type = 'GRU'
+input_size = 300
+hidden_size = 300
+layers_size = 1
+output_size = 2
+clip=1
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+0.84573798415167
+
+F1 Score (train): 0.8832298892539857
+F1 Score (validation): 0.8527394839165783
+Recall Score (train): 0.9215873015873016
+Recall Score (validation): 0.8924237940219
+Precision Score (train): 0.847937843205982
+Precision Score (validation): 0.816434276431569
+
+cell_type = 'GRU'
+input_size = 300
+hidden_size = 300
+layers_size = 3
+output_size = 2
+clip=1
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+0.8243353328889876
+
+F1 Score (train): 0.92353692341234
+F1 Score (validation): 0.8295487208968094
+Recall Score (train): 0.9413333333333334
+Recall Score (validation): 0.8540988458123705
+Precision Score (train): 0.9064009292657578
+Precision Score (validation): 0.8063704945515507
+
+cell_type = 'GRU'
+input_size = 300
+hidden_size = 300
+layers_size = 1
+output_size = 2
+clip=2
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+0.8485521735910538
+
+F1 Score (train): 0.8858352248328323
+F1 Score (validation): 0.8541265425493972
+Recall Score (train): 0.9168253968253969
+Recall Score (validation): 0.8859129920094703
+Precision Score (train): 0.8568715879420841
+Precision Score (validation): 0.8245420740944773
+
+cell_type = 'GRU'
+input_size = 300
+hidden_size = 300
+layers_size = 1
+output_size = 2
+clip=3
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+
+0.8476634821891431
+
+F1 Score (train): 0.8836725961244575
+F1 Score (validation): 0.8538335820365238
+Recall Score (train): 0.9178412698412698
+Recall Score (validation): 0.8890204202426754
+Precision Score (train): 0.851956624233852
+Precision Score (validation): 0.8213260423786739
+
+cell_type = 'GRU'
+input_size = 300
+hidden_size = 300
+layers_size = 1
+output_size = 2
+clip=4
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+0.8533659186847368
+
+F1 Score (train): 0.8799483787707695
+F1 Score (validation): 0.85132902838264
+Recall Score (train): 0.8666666666666667
+Recall Score (validation): 0.8369998523549387
+Precision Score (train): 0.8936435124508519
+Precision Score (validation): 0.866157372039725
+
+cell_type = 'GRU'
+input_size = 300
+hidden_size = 300
+layers_size = 1
+output_size = 2
+clip=5
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+
+0.8561060505072947
+
+F1 Score (train): 0.880879149045239
+F1 Score (validation): 0.8549458753266145
+Recall Score (train): 0.8736574515411503
+Recall Score (validation): 0.8454156208474827
+Precision Score (train): 0.8882212315048136
+Precision Score (validation): 0.864693446088795
+
+cell_type = 'GRU'
+input_size = 300
+hidden_size = 300
+layers_size = 1
+output_size = 2
+clip=5
+p=0.6
+
+EPOCH = 100
+LR = 1e-3
+
+0.8513663630304377
+
+F1 Score (train): 0.8659473121415379
+F1 Score (validation): 0.8486311184855568
+Recall Score (train): 0.8491897044804576
+Recall Score (validation): 0.8306511147202126
+Precision Score (train): 0.8833796112653709
+Precision Score (validation): 0.8674067221708295
+
+
+cell_type = 'GRU'
+input_size = 300
+hidden_size = 300
+layers_size = 1
+output_size = 2
+clip=5
+p=0.4
+
+EPOCH = 100
+LR = 1e-3
+
+0.851810708731393
+
+F1 Score (train): 0.8949119689872396
+F1 Score (validation): 0.8495601834448536
+Recall Score (train): 0.8802669208770257
+Recall Score (validation): 0.8341945961907574
+Precision Score (train): 0.9100525624178712
+Precision Score (validation): 0.8655024509803921
+
+cell_type = 'GRU'
+input_size = 300
+hidden_size = 300
+layers_size = 1
+output_size = 2
+clip=10
+p=0.4
+
+EPOCH = 100
+LR = 1e-3
+
+0.8532918610679109
+
+F1 Score (train): 0.8927887890485613
+F1 Score (validation): 0.850298496183783
+Recall Score (train): 0.8745471877979027
+Recall Score (validation): 0.8306511147202126
+Precision Score (train): 0.9118075801749271
+Precision Score (validation): 0.8708978328173375
+
+cell_type = 'GRU'
+input_size = 300
+hidden_size = 300
+layers_size = 1
+output_size = 2
+clip=100
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+0.8524031696660002
+
+F1 Score (train): 0.8795612195515405
+F1 Score (validation): 0.8500940203083868
+Recall Score (train): 0.8662853511280585
+Recall Score (validation): 0.8343422412520302
+Precision Score (train): 0.8932503276539974
+Precision Score (validation): 0.8664520085863232
+
+
+best result:
+cell_type = 'GRU'
+input_size = 300
+hidden_size = 300
+layers_size = 1
+output_size = 2
+clip=10
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+with accuracy: 0.8540324372361697
+
+F1 Score (train): 0.8789439793947199
+F1 Score (validation): 0.8523263654753878
+Recall Score (train): 0.8674928503336511
+Recall Score (validation): 0.83980510851912
+Precision Score (train): 0.8907014681892332
+Precision Score (validation): 0.8652266504411318

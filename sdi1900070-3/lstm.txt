@@ -1,0 +1,482 @@
+LSTM
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 2
+output_size = 2
+clip=1
+p=0.5
+
+
+EPOCH = 100
+LR = 0.01
+
+F1 Score (train): 0.8552463962453907
+F1 Score (validation): 0.8222893900643262
+Recall Score (train): 0.8137279918346517
+Recall Score (validation): 0.7764929742388759
+Precision Score (train): 0.9012293344637559
+Precision Score (validation): 0.8738263877450173
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 2
+output_size = 2
+clip=1
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+0.8311486336369696
+
+F1 Score (train): 0.9407402502814011
+F1 Score (validation): 0.8232009925558312
+Recall Score (train): 0.9063536616483797
+Recall Score (validation): 0.7769320843091335
+Precision Score (train): 0.9778389538885065
+Precision Score (validation): 0.8753298153034301
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 300
+layers_size = 2
+output_size = 2
+clip=1
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+0.8260386580759831
+
+F1 Score (train): 0.9576128841023615
+F1 Score (validation): 0.817439962695267
+Recall Score (train): 0.9274049502424088
+Recall Score (validation): 0.7697599531615925
+Precision Score (train): 0.9898549737863417
+Precision Score (validation): 0.8714167357083679
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=1
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+0.8503295563948752
+
+F1 Score (train): 0.8789601949634444
+F1 Score (validation): 0.8479422165375066
+Recall Score (train): 0.8627838734371013
+Recall Score (validation): 0.8247950819672131
+Precision Score (train): 0.8957546857407775
+Precision Score (validation): 0.8724260721473912
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=2
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+0.8533659186847368
+
+F1 Score (train): 0.883109404990403
+F1 Score (validation): 0.8536369012418688
+Recall Score (train): 0.8805179892829803
+Recall Score (validation): 0.8451405152224825
+Precision Score (train): 0.8857161190965093
+Precision Score (validation): 0.8623058542413381
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=3
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+0.8513663630304377
+
+F1 Score (train): 0.8797101918038619
+F1 Score (validation): 0.8499439252336448
+Recall Score (train): 0.8675044654248533
+Recall Score (validation): 0.8319672131147541
+Precision Score (train): 0.8922642871202677
+Precision Score (validation): 0.8687146568852209
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=4
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+0.8537362067688662
+
+F1 Score (train): 0.8825540890351858
+F1 Score (validation): 0.8541035679988179
+Recall Score (train): 0.8808369482010717
+Recall Score (validation): 0.8461651053864169
+Precision Score (train): 0.8842779378802433
+Precision Score (validation): 0.8621923937360179
+
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=5
+p=0.5
+
+EPOCH = 100
+LR = 1e-3
+
+0.8491446345256609
+
+F1 Score (train): 0.864354137378625
+F1 Score (validation): 0.8354545454545456
+Recall Score (train): 0.8432635876499107
+Recall Score (validation): 0.8070843091334895
+Precision Score (train): 0.8865267252364026
+Precision Score (validation): 0.865891959798995
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=4
+p=0.1
+
+EPOCH = 100
+LR = 1e-3
+
+0.8402577205065541
+
+F1 Score (train): 0.9487783623277282
+F1 Score (validation): 0.8384148625365195
+Recall Score (train): 0.937611635621332
+Recall Score (validation): 0.8190866510538641
+Precision Score (train): 0.9602142810478866
+Precision Score (validation): 0.8586773055086696
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=4
+p=0.3
+
+EPOCH = 100
+LR = 1e-3
+
+0.8499592683107458
+
+F1 Score (train): 0.9158463617062343
+F1 Score (validation): 0.8488510892270964
+Recall Score (train): 0.908076039806073
+Recall Score (validation): 0.8326990632318502
+Precision Score (train): 0.9237508111615834
+Precision Score (validation): 0.865642118076689
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=4
+p=0.7
+
+EPOCH = 100
+LR = 1e-3
+
+0.8475894245723172
+
+F1 Score (train): 0.8554051902563287
+F1 Score (validation): 0.8484759240170814
+Recall Score (train): 0.8568512375606022
+Recall Score (validation): 0.843384074941452
+Precision Score (train): 0.8539640155127471
+Precision Score (validation): 0.8536296296296296
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=4
+p=0.9
+
+EPOCH = 100
+LR = 1e-3
+
+0.8387025105532104
+
+F1 Score (train): 0.8382598637707236
+F1 Score (validation): 0.8382593197683054
+Recall Score (train): 0.8321638173003317
+Recall Score (validation): 0.8261124121779859
+Precision Score (train): 0.8444458829621958
+Precision Score (validation): 0.8507687669580947
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=4
+p=0.8
+
+EPOCH = 100
+LR = 1e-3
+
+0.843664370880545
+
+F1 Score (train): 0.8382598637707236
+F1 Score (validation): 0.8382593197683054
+Recall Score (train): 0.8321638173003317
+Recall Score (validation): 0.8261124121779859
+Precision Score (train): 0.8444458829621958
+Precision Score (validation): 0.8507687669580947
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=4
+p=0.6
+
+EPOCH = 100
+LR = 1e-3
+
+0.8488484040583574
+
+F1 Score (train): 0.8646648271384515
+F1 Score (validation): 0.8463218131164821
+Recall Score (train): 0.8495789742281195
+Recall Score (validation): 0.822599531615925
+Precision Score (train): 0.8802961200343711
+Precision Score (validation): 0.8714529384400682
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=6
+p=0.6
+
+EPOCH = 100
+LR = 1e-3
+
+0.8499592683107458
+
+F1 Score (train): 0.8667377743301335
+F1 Score (validation): 0.8483305884114388
+Recall Score (train): 0.8553202347537637
+Recall Score (validation): 0.8293325526932084
+Precision Score (train): 0.8784642599751032
+Precision Score (validation): 0.868219429972418
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=8
+p=0.6
+
+EPOCH = 100
+LR = 1e-3
+
+0.8489965192920091
+
+F1 Score (train): 0.8651557889958824
+F1 Score (validation): 0.8470252832170455
+Recall Score (train): 0.8511099770349579
+Recall Score (validation): 0.8262587822014051
+Precision Score (train): 0.8796729742203468
+Precision Score (validation): 0.8688625519470525
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=10
+p=0.6
+
+0.8510701325631341
+
+F1 Score (train): 0.8665484443011446
+F1 Score (validation): 0.850003729395092
+Recall Score (train): 0.8572339882623118
+Recall Score (validation): 0.8340163934426229
+Precision Score (train): 0.8760675402568616
+Precision Score (validation): 0.866615969581749
+
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=20
+p=0.6
+
+EPOCH = 100
+LR = 1e-3
+
+0.8502554987780493
+
+F1 Score (train): 0.8652065929103636
+F1 Score (validation): 0.8489466606902734
+Recall Score (train): 0.8555754018882368
+Recall Score (validation): 0.8316744730679156
+Precision Score (train): 0.8750570887975468
+Precision Score (validation): 0.8669514800122062
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=100
+p=0.6
+
+EPOCH = 100
+LR = 1e-3
+
+0.8495889802266163
+
+F1 Score (train): 0.8704333447727203
+F1 Score (validation): 0.8541472172351885
+Recall Score (train): 0.8887614678899083
+Recall Score (validation): 0.873018203170875
+Precision Score (train): 0.8528458763831999
+Precision Score (validation): 0.8360747926332068
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=200
+p=0.6
+
+EPOCH = 100
+LR = 1e-3
+
+0.8509960749463082
+
+F1 Score (train): 0.8705206642527157
+F1 Score (validation): 0.8556464342086383
+Recall Score (train): 0.8883792048929664
+Recall Score (validation): 0.8753669994128009
+Precision Score (train): 0.8533659730722154
+Precision Score (validation): 0.8367948358125176
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=1000
+p=0.6
+
+EPOCH = 100
+LR = 1e-3
+
+0.8523291120491743
+
+F1 Score (train): 0.8699955866591009
+F1 Score (validation): 0.8552975326560232
+Recall Score (train): 0.8791411824668706
+Recall Score (validation): 0.8650910158543746
+Precision Score (train): 0.8610383127417945
+Precision Score (validation): 0.845723306544202
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=10000
+p=0.6
+
+0.8489965192920091
+
+F1 Score (train): 0.8706122701665325
+F1 Score (validation): 0.8548031047496973
+Recall Score (train): 0.8959607543323139
+Recall Score (validation): 0.8810921902524956
+Precision Score (train): 0.8466586393738712
+Precision Score (validation): 0.8300373392338543
+
+
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 5
+output_size = 2
+clip=1000
+p=0.6
+
+
+EPOCH = 100
+LR = 1e-3
+
+0.8307783455528401
+
+F1 Score (train): 0.9363960946633385
+F1 Score (validation): 0.8345042369812413
+Recall Score (train): 0.9440621814475025
+Recall Score (validation): 0.845713446858485
+Precision Score (train): 0.9288535071773334
+Precision Score (validation): 0.8235882773409579
+
+
+Best result:
+cell_type = 'LSTM'
+input_size = 300
+hidden_size = 100
+layers_size = 1
+output_size = 2
+clip=1000
+p=0.6
+
+
+EPOCH = 100
+LR = 1e-3
+
+with accuracy: 0.8493668073761387
+
+F1 Score (train): 0.8710447206123905
+F1 Score (validation): 0.8549215406562054
+Recall Score (train): 0.8953236493374108
+Recall Score (validation): 0.8797709923664122
+Precision Score (train): 0.8480477943395088
+Precision Score (validation): 0.8314372918978913
+
